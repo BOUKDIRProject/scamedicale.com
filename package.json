@@ -1,8 +1,10 @@
 {
   "name": "my-project",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "webpack" // or your build command
   },
   "dependencies": {
     "express": "^4.17.1"
